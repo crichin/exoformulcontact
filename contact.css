@@ -1,0 +1,59 @@
+.cont {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.cont h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.case {
+    margin-bottom: 15px;
+}
+
+.case label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.case input[type="text"],
+.case input[type="tel"],
+.case input[type="email"],
+.case textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.case textarea {
+    height: 100px;
+}
+
+.erreur {
+    color: red;
+    font-size: 14px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
